@@ -1,4 +1,4 @@
 cron:
-- description: mensaje
-  url: /luciatest
-  schedule: every 1 minutes
+- description: retrieve data from regi
+  url: /retrievedata
+  schedule: every day 10:00
