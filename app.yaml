@@ -1,0 +1,17 @@
+application: cron-test-964
+runtime: python27
+api_version: 1
+version: 1
+threadsafe: true
+
+handlers:
+- url: /luciatest
+  script: main.APP
+
+- url: /.*
+  script: main.APP
+
+
+libraries:
+- name: jinja2
+  version: latest

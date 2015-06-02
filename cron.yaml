@@ -1,0 +1,4 @@
+cron:
+- description: mensaje
+  url: /luciatest
+  schedule: every 1 minutes
